@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Rancher Systems Summary Report"
+echo "Rancher Systems Info"
 echo "=============================="
 echo "Run on `date`"
 echo

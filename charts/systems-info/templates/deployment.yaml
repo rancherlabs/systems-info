@@ -1,7 +1,7 @@
 apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
-  name: systems-information
+  name: systems-info
 spec:
   schedule: {{ .Values.schedule | quote }}
   jobTemplate:
@@ -40,4 +40,4 @@ spec:
           dnsPolicy: ClusterFirst
           restartPolicy: Never
           schedulerName: default-scheduler
-          serviceAccountName: systems-information
+          serviceAccountName: systems-info

@@ -2,8 +2,8 @@ labels:
   io.cattle.role: project # options are cluster/project
 categories:
   - Support
-Name: systems-information
-Namespace: systems-information
+Name: systems-info
+Namespace: systems-info
 questions:
 - variable: defaultImage
   default: true
@@ -14,12 +14,12 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: image.repository
-    default: "docker.io/cube8021/rancher-systems-information"
+    default: "docker.io/rancher/systems-info"
     description: "Docker image repository"
     type: string
     label: Image Repository
   - variable: image.tag
-    default: "v0.0.1-rc1"
+    default: "v0.0.1"
     description: "Docker image tag"
     type: string
     label: Image Tag
