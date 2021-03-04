@@ -34,7 +34,7 @@ echo "Running Summary Report..."
 echo "To: ${to_address}" > email.txt
 if [[ "$send_to_support" == "true" ]]
 then
-  echo "CC: support@support.tools" >> email.txt
+  echo "CC: support@rancher.com" >> email.txt
 fi
 echo "From: ${from_address}" >> email.txt
 echo "Subject: Rancher Systems Summary Report - ${rancher_name}" >> email.txt

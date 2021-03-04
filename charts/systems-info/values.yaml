@@ -1,14 +1,14 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/cube8021/rancher-systems-information
-  tag: v0.0.1-rc2
+  repository: docker.io/rancher/systems-info
+  tag: v0.0.1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 
-Name: systems-information
-Namespace: systems-information
+Name: systems-info
+Namespace: systems-info
 
 rbac:
   create: true
@@ -16,7 +16,7 @@ rbac:
 
 serviceAccount:
   create: true
-  name: systems-information
+  name: systems-info
 
 resources:
   limits:
