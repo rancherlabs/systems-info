@@ -3,7 +3,7 @@ entries:
   rancher:
   - apiVersion: v1
     appVersion: 0.0.1
-    created: "2021-02-23T14:46:40.1336623-06:00"
+    created: "2021-03-04T11:39:06.0872245-06:00"
     description: Rancher Systems Info
     digest: b2d217c3c7ab839bb11151cdd1d99ab8920f0241dcda74764e3932969f17fe0c
     home: https://rancher.com
@@ -18,6 +18,6 @@ entries:
     sources:
     - https://github.com/rancherlabs/systems-info
     urls:
-    - rancher-0.0.1.tgz
+    - https://rancherlabs.github.io/systems-info/charts/rancher-0.0.1.tgz
     version: 0.0.1
-generated: "2021-02-23T14:46:40.1320472-06:00"
+generated: "2021-03-04T11:39:06.0847725-06:00"
